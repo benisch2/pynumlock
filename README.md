@@ -3,6 +3,9 @@ A program that uses python to integrate with AutoHotKey to ensure the numberlock
 
 Sometimes my numlock key seems to randomly turn off throughout the day. This script is designed to run to automatically turn it on if it detects it is off, checking every 60 seconds.
 
+#Limitations:  
+This requires autohotkey installed. As it uses the Windows API, this will also only work for Windows Operating Systems.
+
 #Requirements:  
 -Python Installed  
 -Python Library pywin32 Installed (can be installed using "pip install pywin32" in cmd)  
